@@ -1,0 +1,523 @@
+{
+  "document": {
+    "id": "OIC-PFC-RULES-2012",
+    "title": "Rules of Procedure for the Meeting of the Permanent Finance Committee (PFC)",
+    "organization": "Organization of Islamic Cooperation (OIC)",
+    "approved_by": "39th Council of Foreign Ministers",
+    "approval_year": 2012,
+    "document_type": "Rules of Procedure",
+    "scope": "Applies to every meeting and session of the Permanent Finance Committee."
+  },
+
+  "committee": {
+    "name": "Permanent Finance Committee",
+    "abbreviation": "PFC",
+
+    "purpose": [
+      "Prepare administrative and financial matters before the Council of Foreign Ministers.",
+      "Review budgets and financial reports.",
+      "Review final accounts.",
+      "Recommend financial matters to the Council."
+    ]
+  },
+
+  "definitions": {
+
+    "Organization": {
+      "meaning": "Organization of Islamic Cooperation",
+      "short_name": "OIC"
+    },
+
+    "Council": {
+      "meaning": "Council of Foreign Ministers",
+      "short_name": "CFM"
+    },
+
+    "Committee": {
+      "meaning": "Permanent Finance Committee"
+    },
+
+    "SecretaryGeneral": {
+      "meaning": "Secretary General of OIC"
+    },
+
+    "GeneralSecretariat": {
+      "meaning": "Administrative Secretariat of OIC"
+    },
+
+    "Session": {
+      "meaning": "Official meeting of the Committee"
+    },
+
+    "Chairperson": {
+      "meaning": "Leader of the Committee"
+    },
+
+    "MembersPresentAndVoting": {
+      "meaning": "Members physically present who cast either YES or NO vote."
+    }
+  },
+
+  "functions": {
+
+    "primary_role": "Preparatory Committee",
+
+    "responsibilities": [
+
+      {
+        "id": "FUNC-01",
+        "task": "Review administrative matters"
+      },
+
+      {
+        "id": "FUNC-02",
+        "task": "Review financial matters"
+      },
+
+      {
+        "id": "FUNC-03",
+        "task": "Review proposed budgets"
+      },
+
+      {
+        "id": "FUNC-04",
+        "task": "Review final accounts"
+      },
+
+      {
+        "id": "FUNC-05",
+        "task": "Review documents submitted by General Secretariat"
+      },
+
+      {
+        "id": "FUNC-06",
+        "task": "Recommend approval to Council"
+      }
+
+    ]
+  },
+
+  "participation": {
+
+    "members": {
+
+      "eligible": "All OIC Member States",
+
+      "can_vote": true
+
+    },
+
+    "general_secretariat": {
+
+      "can_attend": true,
+
+      "can_vote": false,
+
+      "rights": [
+
+        "Present reports",
+
+        "Explain budgets",
+
+        "Explain administrative issues",
+
+        "Answer Committee questions"
+
+      ]
+    },
+
+    "subsidiary_organs": {
+
+      "can_attend": true,
+
+      "can_vote": false,
+
+      "rights": [
+
+        "Present financial reports",
+
+        "Present budgets",
+
+        "Clarify activities"
+
+      ]
+    },
+
+    "institutions": {
+
+      "attendance": "Only if invited by Secretary General",
+
+      "can_vote": false
+
+    }
+
+  },
+
+  "sessions": {
+
+    "regular": {
+
+      "frequency": "Once every year",
+
+      "location": [
+
+        "OIC Headquarters",
+
+        "Approved alternative venue"
+
+      ],
+
+      "timing": "At least one month before Council meeting"
+
+    },
+
+    "extraordinary": {
+
+      "trigger_conditions": [
+
+        {
+          "condition": "Committee decision"
+        },
+
+        {
+          "condition": "Council decision"
+        },
+
+        {
+          "condition": "Member State request with majority support"
+        },
+
+        {
+          "condition": "Secretary General emergency request"
+        }
+
+      ],
+
+      "deadline_after_approval": "Within two months"
+
+    }
+
+  },
+
+  "agenda": {
+
+    "prepared_by": "General Secretariat",
+
+    "agenda_sources": [
+
+      "Council",
+
+      "Previous Session",
+
+      "Member States",
+
+      "Finance Control Organ",
+
+      "Next year's budget",
+
+      "Secretary General",
+
+      "Other Business"
+
+    ],
+
+    "member_submission_deadline": "15 days before meeting",
+
+    "required_documents": [
+
+      "Supporting documents",
+
+      "Budget",
+
+      "Reports",
+
+      "Explanatory memorandum"
+
+    ],
+
+    "approval": {
+
+      "preferred": "Consensus",
+
+      "fallback": "Majority of members present and voting"
+
+    },
+
+    "extraordinary_session": {
+
+      "normally_contains": "Only emergency topic",
+
+      "urgent_items_allowed": true
+
+    },
+
+    "modification": {
+
+      "during_session": "Simple Majority"
+
+    }
+
+  },
+
+  "bureau": {
+
+    "structure": {
+
+      "Chairperson": 1,
+
+      "ViceChairpersons": 3,
+
+      "Rapporteur": 1
+
+    },
+
+    "selection": {
+
+      "method": "Election",
+
+      "majority": "Simple Majority",
+
+      "regional_balance_required": true
+
+    },
+
+    "responsibilities": {
+
+      "Chairperson": [
+
+        "Open meeting",
+
+        "Close meeting",
+
+        "Manage discussion",
+
+        "Maintain order",
+
+        "Allow speakers",
+
+        "Rule procedural issues",
+
+        "Suspend meeting",
+
+        "Adjourn meeting",
+
+        "Close debate"
+
+      ],
+
+      "ViceChairperson": [
+
+        "Replace Chairperson during absence"
+
+      ],
+
+      "Rapporteur": [
+
+        "Prepare final report"
+
+      ]
+
+    }
+
+  },
+
+  "secretary_general": {
+
+    "responsibilities": [
+
+      "Notify members two months before meeting",
+
+      "Send agenda",
+
+      "Send reports",
+
+      "Send proposed budgets",
+
+      "Coordinate with host country",
+
+      "Attend meetings",
+
+      "Provide clarification"
+
+    ]
+  },
+
+  "voting": {
+
+    "one_country_one_vote": true,
+
+    "decision_order": [
+
+      "Consensus",
+
+      "Two-thirds majority"
+    ],
+
+    "voting_methods": [
+
+      "Show of Hands",
+
+      "Roll Call"
+    ],
+
+    "roll_call_requirements": {
+
+      "requested_by": "One Member",
+
+      "supported_by": "Two Members"
+
+    },
+
+    "non_members_can_vote": false,
+
+    "recorded": [
+
+      "Explanation of vote",
+
+      "Reservations"
+    ]
+
+  },
+
+  "proposals": {
+
+    "submission": {
+
+      "written": true,
+
+      "recipient": "Chairperson"
+
+    },
+
+    "circulated_by": "General Secretariat",
+
+    "discussion_deadline": "24 hours before debate closes",
+
+    "reconsideration": {
+
+      "allowed": true,
+
+      "required_vote": "Two-thirds Majority"
+
+    }
+
+  },
+
+  "amendments": {
+
+    "processed_before_original": true
+  },
+
+  "points_of_order": {
+
+    "raised_by": "Any Member State",
+
+    "chairperson_decides": true,
+
+    "appeal_allowed": true,
+
+    "appeal_majority": "Simple Majority",
+
+    "priority_order": [
+
+      "Suspend Meeting",
+
+      "Adjourn Meeting",
+
+      "Close Debate",
+
+      "Adjourn Debate"
+    ]
+
+  },
+
+  "languages": {
+
+    "official": [
+
+      "Arabic",
+
+      "English",
+
+      "French"
+
+    ],
+
+    "documents_required": [
+
+      "Arabic",
+
+      "English",
+
+      "French"
+
+    ]
+  },
+
+  "rule_amendment": {
+
+    "approved_by": "Council",
+
+    "committee_can_recommend": true
+  },
+
+  "fallback_rule": {
+
+    "if_missing": "Apply Rules of Procedure of the Council"
+  },
+
+  "workflow": {
+
+    "step_1": "General Secretariat prepares agenda",
+
+    "step_2": "Documents distributed",
+
+    "step_3": "Committee meets",
+
+    "step_4": "Discussion",
+
+    "step_5": "Proposal submitted",
+
+    "step_6": "Vote",
+
+    "step_7": "Recommendation sent to Council",
+
+    "step_8": "Council approves or rejects"
+
+  },
+
+  "knowledge_graph": {
+
+    "Secretary General": [
+
+      "Prepares Agenda",
+
+      "Sends Documents",
+
+      "Organizes Meeting",
+
+      "Attends Session"
+
+    ],
+
+    "Committee": [
+
+      "Reviews Budgets",
+
+      "Reviews Accounts",
+
+      "Makes Recommendations"
+
+    ],
+
+    "Council": [
+
+      "Receives Recommendations",
+
+      "Approves Budget",
+
+      "Approves Accounts"
+
+    ]
+  }
+}

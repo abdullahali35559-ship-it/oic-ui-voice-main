@@ -1,0 +1,296 @@
+{
+  "document": {
+    "title": "Rules of Procedure of the OIC Executive Committee",
+    "organization": "Organization of Islamic Cooperation (OIC)",
+    "governing_body": "Executive Committee",
+    "established_under": "Article 12 of the OIC Charter",
+    "purpose": "Defines the organization, powers, meetings, procedures, and decision-making process of the OIC Executive Committee."
+  },
+
+  "definitions": {
+    "Summit": {
+      "description": "Conference of Kings and Heads of State and Government",
+      "includes": ["Regular Summit", "Extraordinary Summit"]
+    },
+
+    "Council_of_Foreign_Ministers": {
+      "short_name": "CFM",
+      "includes": ["Regular Session", "Extraordinary Session"]
+    },
+
+    "Resolution": {
+      "description": "All resolutions, declarations, communiqués, and programmes adopted by the Summit or CFM."
+    },
+
+    "Ten_Year_Programme_of_Action": {
+      "description": "Strategic programme adopted during the 3rd Extraordinary Summit."
+    },
+
+    "Member_State": {
+      "description": "Any member state recognized under the OIC Charter."
+    },
+
+    "OIC_Troikas": {
+      "description": "Current, previous, and succeeding Chairmen of both the Summit and CFM."
+    },
+
+    "Executive_Committee": {
+      "description": "Executive body established under Articles V and XII of the Charter."
+    },
+
+    "Meeting": {
+      "description": "Regular or Extraordinary session of the Executive Committee."
+    },
+
+    "Host_Country": {
+      "description": "Kingdom of Saudi Arabia."
+    },
+
+    "Secretary_General": {
+      "description": "Secretary General of the Organization of Islamic Cooperation."
+    },
+
+    "Chairman": {
+      "description": "Chairman of the Executive Committee."
+    },
+
+    "Follow_Up": {
+      "description": "Monitoring implementation of Summit and CFM resolutions."
+    }
+  },
+
+  "rules": [
+
+    {
+      "rule": 1,
+      "title": "Definitions",
+      "purpose": "Defines all important terms used throughout the Rules."
+    },
+
+    {
+      "rule": 2,
+      "title": "Functions of the Committee",
+      "main_function": [
+        "Monitor implementation of Summit resolutions.",
+        "Monitor implementation of CFM resolutions.",
+        "Facilitate implementation where necessary."
+      ]
+    },
+
+    {
+      "rule": 3,
+      "title": "Meetings",
+      "regular_meetings": {
+        "frequency": "Twice every year",
+        "scheduled_by": "Committee in consultation with Secretary General"
+      },
+      "extraordinary_meetings": {
+        "called_by": [
+          "Committee Decision",
+          "Member State Request",
+          "Secretary General Request"
+        ]
+      },
+      "venue": [
+        "OIC Headquarters",
+        "Another location proposed by the Secretary General"
+      ],
+      "notification": "Secretary General informs Committee members and all OIC Member States."
+    },
+
+    {
+      "rule": 4,
+      "title": "Agenda",
+      "prepared_by": "Secretary General",
+      "consultation_with": "Committee Chairman",
+      "agenda_sources": [
+        "Previous Committee decisions",
+        "Chairman's proposals",
+        "Committee member proposals",
+        "Member State proposals",
+        "Secretary General proposals"
+      ],
+      "restrictions": [
+        "Only matters related to Summit and CFM agenda.",
+        "Internal or bilateral disputes cannot be included without consent of concerned Member States."
+      ],
+      "distribution": {
+        "regular_meeting": "At least 3 weeks before meeting.",
+        "extraordinary_meeting": "At least 7 days before meeting."
+      },
+      "agenda_approval": "Requires affirmative vote of two-thirds of Committee members."
+    },
+
+    {
+      "rule": 5,
+      "title": "Committee Membership",
+      "voting_members": [
+        "Current Summit Chairman",
+        "Previous Summit Chairman",
+        "Next Summit Chairman",
+        "Current CFM Chairman",
+        "Previous CFM Chairman",
+        "Next CFM Chairman",
+        "Host Country"
+      ],
+      "non_voting_participants": [
+        "Concerned Member States",
+        "Interested Member States",
+        "Secretary General"
+      ],
+      "rights_of_non_voting_members": [
+        "Participate in discussions",
+        "Submit proposals"
+      ]
+    },
+
+    {
+      "rule": 6,
+      "title": "Committee Bureau",
+      "composition": [
+        "Chairman",
+        "Vice Chairman",
+        "Secretary General (Ex-Officio)"
+      ],
+      "chairman": "Summit Chairman",
+      "vice_chairman": "CFM Chairman",
+      "responsibilities": [
+        "Perform Committee functions.",
+        "Represent Committee when authorized.",
+        "Conduct negotiations when mandated."
+      ]
+    },
+
+    {
+      "rule": 7,
+      "title": "Chairman's Powers",
+      "responsibilities": [
+        "Open meetings.",
+        "Close meetings.",
+        "Manage discussions.",
+        "Ensure compliance with Rules.",
+        "Grant speaking rights.",
+        "Conduct voting.",
+        "Announce decisions.",
+        "Maintain order.",
+        "Limit speaking time.",
+        "Limit number of speeches.",
+        "Close speaker list.",
+        "Rule on procedural matters.",
+        "Suspend or adjourn meetings."
+      ]
+    },
+
+    {
+      "rule": 8,
+      "title": "General Secretariat",
+      "responsibilities": [
+        "Inform Member States about important developments.",
+        "Organize Committee meetings.",
+        "Support Committee work.",
+        "Secretary General attends every meeting.",
+        "Secretary General may make oral or written statements."
+      ]
+    },
+
+    {
+      "rule": 9,
+      "title": "Official Languages",
+      "languages": [
+        "As defined in Article 38 of the OIC Charter"
+      ]
+    },
+
+    {
+      "rule": 10,
+      "title": "Conduct of Business",
+      "meeting_type": "Closed (In Camera)",
+      "quorum": "Two-thirds of Committee members",
+      "representation": "Ministers or official representatives",
+      "principles": [
+        "Transparency",
+        "Accountability",
+        "Integrity",
+        "Compliance with OIC Charter"
+      ]
+    },
+
+    {
+      "rule": 11,
+      "title": "Conclusion of Debates",
+      "decision_process": [
+        "Consensus preferred.",
+        "If consensus fails, affirmative vote of two-thirds majority."
+      ],
+      "restriction": "Committee decisions cannot contradict the Charter or Summit/CFM resolutions."
+    },
+
+    {
+      "rule": 12,
+      "title": "Reports and Records",
+      "outputs": [
+        "Press Release",
+        "Meeting Report",
+        "Annual Report to CFM"
+      ],
+      "meeting_report_contains": [
+        "Agenda",
+        "Participants",
+        "Summary of debates",
+        "Conclusions"
+      ],
+      "report_distribution": "Within 15 days after meeting.",
+      "annual_report": "Submitted to CFM with implementation recommendations."
+    },
+
+    {
+      "rule": 13,
+      "title": "Relationship with OIC Organs",
+      "reporting_entities": [
+        "Subsidiary Organs",
+        "Specialized Institutions",
+        "Affiliated Institutions",
+        "Standing Committees"
+      ],
+      "reporting_channel": "Through the Secretary General",
+      "purpose": "Provide implementation progress reports.",
+      "committee_rights": [
+        "Receive written reports",
+        "Receive oral statements"
+      ]
+    },
+
+    {
+      "rule": 14,
+      "title": "Amendment of Rules",
+      "procedure": [
+        "Written request by Member State.",
+        "Sent to General Secretariat.",
+        "Shared with Member States at least four months before CFM.",
+        "CFM adopts amendments."
+      ]
+    },
+
+    {
+      "rule": 15,
+      "title": "Adoption and Entry into Force",
+      "adopted_by": "Council of Foreign Ministers",
+      "effective_date": "Immediately upon adoption."
+    }
+
+  ],
+
+  "committee_summary": {
+    "primary_role": "Monitor implementation of Summit and CFM decisions.",
+    "meeting_frequency": "Twice per year",
+    "quorum": "Two-thirds",
+    "decision_method": [
+      "Consensus",
+      "Otherwise two-thirds majority"
+    ],
+    "meeting_type": "Closed meetings",
+    "chairman": "Current Summit Chairman",
+    "vice_chairman": "Current CFM Chairman",
+    "secretariat": "Secretary General organizes and supports all Committee activities."
+  }
+}

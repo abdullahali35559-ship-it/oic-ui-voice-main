@@ -1,0 +1,334 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================
+   BASE STYLES
+   ============================================ */
+
+body {
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url('/new_oic.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+/* ============================================
+   GLASS SYSTEM
+   ============================================ */
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.22);
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  box-shadow: 0 4px 28px rgba(0, 0, 0, 0.10),
+              inset 0 1px 0 rgba(255, 255, 255, 0.60);
+  border-radius: 16px;
+}
+
+.glass-sidebar {
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(28px) saturate(180%);
+  -webkit-backdrop-filter: blur(28px) saturate(180%);
+  border-right: 1px solid rgba(255, 255, 255, 0.32);
+  box-shadow: 4px 0 28px rgba(0, 0, 0, 0.08);
+}
+
+.glass-header {
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(28px) saturate(180%);
+  -webkit-backdrop-filter: blur(28px) saturate(180%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.32);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+  border-right: 1px solid rgba(255, 255, 255, 0.28);
+}
+
+.glass-bar {
+  background: rgba(255, 255, 255, 0.20);
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+  border-top: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.glass-input {
+  background: rgba(255, 255, 255, 0.58) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.65) !important;
+  color: #111 !important;
+}
+
+.glass-input:focus {
+  background: rgba(255, 255, 255, 0.80) !important;
+  outline: none !important;
+  border-color: rgba(26, 71, 49, 0.55) !important;
+  box-shadow: 0 0 0 2px rgba(26, 71, 49, 0.18) !important;
+}
+
+.glass-input::placeholder {
+  color: rgba(0, 0, 0, 0.70);
+}
+
+.glass-thead {
+  background: rgba(255, 255, 255, 0.30);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.glass-row-hover:hover {
+  background: rgba(255, 255, 255, 0.22);
+}
+
+/* ============================================
+   SCROLLBAR
+   ============================================ */
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+/* ============================================
+   RESPONSIVE GRID FIXES (only these)
+   ============================================ */
+
+@media (max-width: 768px) {
+  .grid-cols-4 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .grid-cols-3 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .grid-cols-2 {
+    grid-template-columns: 1fr !important;
+  }
+  .glass-card {
+    border-radius: 12px;
+    padding: 1rem !important;
+  }
+  .overflow-x-auto table {
+    min-width: 600px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .grid-cols-4 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* ============================================
+   DARK MODE
+   ============================================ */
+
+.dark .glass-card {
+  background: rgba(30, 30, 50, 0.85) !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.dark .glass-sidebar {
+  background: rgba(20, 20, 40, 0.90) !important;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.dark .glass-header {
+  background: rgba(20, 20, 40, 0.85) !important;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.dark .glass-input {
+  background: rgba(255, 255, 255, 0.08) !important;
+  color: #e2e8f0 !important;
+  border-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+.dark .glass-input::placeholder {
+  color: rgba(255, 255, 255, 0.30) !important;
+}
+
+.dark body::before {
+  opacity: 0.3;
+}
+
+.dark .text-gray-900 { color: #f7fafc !important; }
+.dark .text-gray-700 { color: #e2e8f0 !important; }
+.dark .text-gray-600 { color: #a0aec0 !important; }
+.dark .text-gray-500 { color: #a0aec0 !important; }
+.dark .text-gray-400 { color: #718096 !important; }
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.dark .glass-row-hover:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.dark .glass-thead {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* ============================================
+   RTL SUPPORT (Arabic) – only essential
+   ============================================ */
+
+[dir="rtl"] .glass-sidebar {
+  left: auto !important;
+  right: 0 !important;
+  border-right: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.32);
+}
+
+[dir="rtl"] .ml-64,
+[dir="rtl"] .ml-20 {
+  margin-left: 0 !important;
+  margin-right: 16rem !important; /* override will be applied via Tailwind classes dynamically */
+}
+[dir="rtl"] .ml-20 {
+  margin-right: 5rem !important;
+}
+
+[dir="rtl"] table {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir="rtl"] th,
+[dir="rtl"] td {
+  text-align: right;
+}
+
+[dir="rtl"] .absolute.left-3 {
+  left: auto;
+  right: 0.75rem;
+}
+
+[dir="rtl"] input {
+  padding-left: 1rem;
+  padding-right: 2.5rem;
+  text-align: right;
+}
+
+[dir="rtl"] .ml-auto {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+
+[dir="rtl"] .mr-auto {
+  margin-right: 0 !important;
+  margin-left: auto !important;
+}
+
+
+/* Add to src/index.css at the end */
+
+/* ============================================
+   SIDEBAR MARGIN MANAGEMENT
+   ============================================ */
+
+/* Desktop: 1024px and above */
+@media (min-width: 1024px) {
+    .ml-64 {
+        margin-left: 16rem !important;
+        transition: margin-left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .ml-20 {
+        margin-left: 5rem !important;
+        transition: margin-left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .sidebar-expanded .ml-64 {
+        margin-left: 16rem !important;
+    }
+    .sidebar-collapsed .ml-20 {
+        margin-left: 5rem !important;
+    }
+}
+
+/* Tablet: 768px - 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .ml-64, .ml-20 {
+        margin-left: 5rem !important;
+        transition: margin-left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+/* Mobile: below 768px */
+@media (max-width: 767px) {
+    .ml-64, .ml-20 {
+        margin-left: 0 !important;
+        transition: margin-left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+/* RTL support */
+[dir="rtl"] .ml-64 {
+    margin-left: 0 !important;
+    margin-right: 16rem !important;
+}
+[dir="rtl"] .ml-20 {
+    margin-left: 0 !important;
+    margin-right: 5rem !important;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    [dir="rtl"] .ml-64, [dir="rtl"] .ml-20 {
+        margin-right: 5rem !important;
+        margin-left: 0 !important;
+    }
+}
+@media (max-width: 767px) {
+    [dir="rtl"] .ml-64, [dir="rtl"] .ml-20 {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+}
+
+[dir="rtl"] .glass-sidebar {
+    border-right: none !important;
+    border-left: 1px solid rgba(255, 255, 255, 0.32) !important;
+    box-shadow: -4px 0 28px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Scrollbar for sidebar */
+.glass-sidebar::-webkit-scrollbar {
+    width: 3px;
+}
+.glass-sidebar::-webkit-scrollbar-track {
+    background: transparent;
+}
+.glass-sidebar::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.15);
+    border-radius: 10px;
+}
+.glass-sidebar::-webkit-scrollbar-thumb:hover {
+    background: rgba(0,0,0,0.25);
+}

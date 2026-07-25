@@ -1,0 +1,486 @@
+{
+  "document": {
+    "id": "ICECS-RULES-1991",
+    "title": "Rules of Procedure of the Islamic Commission for Economic, Cultural and Social Affairs",
+    "organization": "Organization of Islamic Cooperation (OIC)",
+    "short_name": "ICECS Rules",
+    "adopted": {
+      "date": "1991-12-11",
+      "location": "Dakar, Senegal"
+    },
+    "language": [
+      "Arabic",
+      "English",
+      "French"
+    ],
+    "purpose": "Defines how the Islamic Commission conducts meetings, voting, agenda management, participation, elections and administration."
+  },
+
+  "commission": {
+    "name": "Islamic Commission for Economic, Cultural and Social Affairs",
+
+    "missions": [
+      {
+        "role": "Preparatory Commission",
+        "description": "Prepare economic, cultural and social matters before the Council of Foreign Ministers."
+      },
+      {
+        "role": "Joint General Assembly",
+        "description": "Acts as the General Assembly for OIC Subsidiary Organs."
+      }
+    ]
+  },
+
+  "definitions": {
+
+    "Organization": "Organization of Islamic Cooperation",
+
+    "Charter": "OIC Charter",
+
+    "Council": "Council of Foreign Ministers",
+
+    "SecretaryGeneral": "Secretary General of OIC",
+
+    "GeneralSecretariat": "Administrative body of OIC",
+
+    "Commission": "Islamic Commission for Economic, Cultural and Social Affairs",
+
+    "Session": "Official meeting of the Commission",
+
+    "Plenary": "Full meeting of all members",
+
+    "JointGeneralAssembly": "Commission acting as General Assembly for Subsidiary Organs",
+
+    "EconomicCommittee": "Committee responsible for economic affairs",
+
+    "CulturalSocialCommittee": "Committee responsible for cultural and social affairs",
+
+    "Chairman": "Head of the Commission",
+
+    "SubsidiaryOrgans": "Official OIC Subsidiary Organizations",
+
+    "SpecializedInstitutions": "Official Specialized Institutions",
+
+    "AffiliatedInstitutions": "Affiliated Institutions of OIC"
+  },
+
+  "functions": {
+
+    "preparatory_commission": [
+
+      "Review economic issues",
+
+      "Review cultural issues",
+
+      "Review social issues",
+
+      "Prepare recommendations",
+
+      "Submit recommendations to Council of Foreign Ministers"
+
+    ],
+
+    "joint_general_assembly": [
+
+      "Determine policies of Subsidiary Organs",
+
+      "Provide strategic guidance",
+
+      "Review audited financial statements",
+
+      "Review activities",
+
+      "Review proposed budgets",
+
+      "Elect Governing Board members"
+
+    ]
+
+  },
+
+  "participation": {
+
+    "members": {
+
+      "eligible": "All OIC Member States",
+
+      "voting_right": true
+
+    },
+
+    "subsidiary_organs": {
+
+      "participation": true,
+
+      "can_vote": false,
+
+      "rights": [
+
+        "Present reports",
+
+        "Clarify activities",
+
+        "Submit proposals"
+
+      ]
+
+    },
+
+    "specialized_institutions": {
+
+      "participation": true,
+
+      "can_vote": false,
+
+      "rights": [
+
+        "Present institutional activities",
+
+        "Provide clarification"
+
+      ]
+
+    },
+
+    "affiliated_institutions": {
+
+      "participation": true,
+
+      "can_vote": false
+
+    },
+
+    "observers": {
+
+      "participation": "Allowed according to OIC observer rules",
+
+      "can_vote": false
+
+    }
+
+  },
+
+  "sessions": {
+
+    "regular": {
+
+      "frequency": "Every year",
+
+      "location": [
+
+        "OIC Headquarters",
+
+        "Another approved venue"
+
+      ],
+
+      "next_session": "Determined during current session"
+
+    },
+
+    "extraordinary": {
+
+      "can_be_called_by": [
+
+        "Commission",
+
+        "Council of Foreign Ministers",
+
+        "Member State with majority support"
+
+      ],
+
+      "deadline_after_approval": "Within two months"
+    }
+
+  },
+
+  "agenda": {
+
+    "prepared_by": "Secretary General",
+
+    "sources": [
+
+      "Council",
+
+      "Previous Session",
+
+      "Member States",
+
+      "Secretary General"
+
+    ],
+
+    "member_submission_deadline": "15 days before session",
+
+    "agenda_adoption": {
+
+      "preferred": "Consensus",
+
+      "fallback": "Simple majority"
+
+    },
+
+    "agenda_amendment": {
+
+      "during_session": "Two-thirds majority"
+
+    }
+
+  },
+
+  "bureau": {
+
+    "composition": {
+
+      "Chairman": 1,
+
+      "ViceChairman": 3,
+
+      "Rapporteur": 1,
+
+      "SecretaryGeneral": "Ex-Officio"
+
+    },
+
+    "responsibilities": {
+
+      "Chairman": [
+
+        "Open meeting",
+
+        "Close meeting",
+
+        "Manage discussion",
+
+        "Maintain order",
+
+        "Grant speaking rights",
+
+        "Rule on procedural matters"
+
+      ],
+
+      "ViceChairman": [
+
+        "Replace Chairman when absent"
+
+      ],
+
+      "Rapporteur": [
+
+        "Prepare final report"
+
+      ]
+    }
+
+  },
+
+  "secretary_general": {
+
+    "responsibilities": [
+
+      "Notify members one month before session",
+
+      "Distribute agenda",
+
+      "Distribute working papers",
+
+      "Attend all meetings",
+
+      "Provide clarification",
+
+      "Organize session",
+
+      "Coordinate with host country"
+    ]
+  },
+
+  "voting": {
+
+    "one_state_one_vote": true,
+
+    "procedure_matters": {
+
+      "required_majority": "Simple Majority"
+
+    },
+
+    "substantive_matters": {
+
+      "required_majority": "Two-thirds Majority",
+
+      "preferred": "Consensus"
+
+    },
+
+    "methods": [
+
+      "Show of Hands",
+
+      "Roll Call Vote"
+    ],
+
+    "roll_call_requires": {
+
+      "request": "One Member",
+
+      "support": "Two additional Members"
+
+    },
+
+    "non_members_can_vote": false
+  },
+
+  "proposals": {
+
+    "submission": "Written",
+
+    "submitted_to": "Chairman",
+
+    "circulated_by": "General Secretariat",
+
+    "withdrawal": {
+
+      "allowed_before_vote": true,
+
+      "can_be_reintroduced": true
+    },
+
+    "rejected_proposal": {
+
+      "can_be_resubmitted_same_session": false
+    }
+  },
+
+  "amendments": {
+
+    "vote_order": [
+
+      "Amendment",
+
+      "Original Proposal"
+    ]
+  },
+
+  "points_of_order": {
+
+    "raised_by": "Any Member",
+
+    "chairman_decides": true,
+
+    "appeal_allowed": true,
+
+    "appeal_majority": "Simple Majority",
+
+    "motion_priority": [
+
+      "Suspend Meeting",
+
+      "Adjourn Meeting",
+
+      "Close Debate",
+
+      "Adjourn Debate",
+
+      "Refer to Committee"
+    ]
+  },
+
+  "elections": {
+
+    "bureau": {
+
+      "regional_distribution": true
+
+    },
+
+    "governing_board": {
+
+      "method": "Secret Ballot",
+
+      "majority": "Simple Majority"
+    }
+  },
+
+  "rules_amendment": {
+
+    "approved_by": "Council of Foreign Ministers",
+
+    "commission_can_recommend": true
+  },
+
+  "languages": {
+
+    "official": [
+
+      "Arabic",
+
+      "English",
+
+      "French"
+
+    ],
+
+    "documents_required_in": [
+
+      "Arabic",
+
+      "English",
+
+      "French"
+
+    ]
+  },
+
+  "fallback_rule": {
+
+    "if_not_covered": "Apply OIC Rules of Procedure"
+  },
+
+  "decision_tree": {
+
+    "Meeting": {
+
+      "Session": {
+
+        "Regular": {
+
+          "Agenda": {
+
+            "Prepared": "Secretary General",
+
+            "Approved": "Consensus or Majority"
+          },
+
+          "Discussion": {
+
+            "Proposal": {
+
+              "Written": true,
+
+              "Vote": {
+
+                "Procedure": "Simple Majority",
+
+                "Policy": "Two-thirds Majority"
+              }
+            }
+          }
+        },
+
+        "Extraordinary": {
+
+          "Reason": [
+
+            "Commission",
+
+            "Council",
+
+            "Member State Request"
+          ]
+        }
+      }
+    }
+  }
+}

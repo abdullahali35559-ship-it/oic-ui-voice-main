@@ -1,0 +1,379 @@
+{
+  "document": {
+    "title": "Rules Governing Observer Status at the Organization of Islamic Cooperation (OIC)",
+    "short_title": "OIC Observer Status Rules",
+    "organization": "Organization of Islamic Cooperation (OIC)",
+    "governing_body": "Council of Foreign Ministers (CFM)",
+    "implemented_under": {
+      "charter_article": "Article 4 of the OIC Charter",
+      "charter_year": 2008
+    },
+    "purpose": "Define who can become an Observer of the OIC, the admission process, rights, obligations, suspension procedures, and general provisions."
+  },
+
+  "metadata": {
+    "chapters": 5,
+    "articles": 15,
+    "effective_authority": "Council of Foreign Ministers"
+  },
+
+  "definitions": {
+    "charter": {
+      "description": "Charter of the Organization of Islamic Cooperation."
+    },
+    "organization": {
+      "description": "Organization of Islamic Cooperation (OIC)."
+    },
+    "council": {
+      "full_name": "Council of Foreign Ministers",
+      "short_name": "CFM"
+    },
+    "secretary_general": {
+      "description": "Secretary General of the OIC."
+    },
+    "general_secretariat": {
+      "description": "Administrative Secretariat of the OIC."
+    },
+    "chairman": {
+      "description": "Chairman of a Council meeting."
+    },
+    "observer": {
+      "description": "A State or organization officially granted Observer Status under these Rules."
+    }
+  },
+
+  "chapters": [
+
+    {
+      "chapter": 1,
+      "title": "Scope and Definitions",
+      "articles": [
+
+        {
+          "article": 1,
+          "title": "Purpose",
+          "summary": "These Rules implement Article 4 of the OIC Charter and regulate Observer Status."
+        },
+
+        {
+          "article": 2,
+          "title": "Definitions",
+          "summary": "Defines the legal terms used throughout these Rules."
+        }
+
+      ]
+    },
+
+    {
+      "chapter": 2,
+      "title": "Categories of Observers",
+      "articles": [
+
+        {
+          "article": 3,
+          "eligible_applicants": [
+
+            {
+              "category": "United Nations Member States",
+              "conditions": [
+                "Eligible under the OIC Charter.",
+                "Wish to observe OIC activities."
+              ]
+            },
+
+            {
+              "category": "International Intergovernmental Organizations",
+              "conditions": [
+                "Eligible under the OIC Charter.",
+                "Wish to observe OIC activities."
+              ]
+            },
+
+            {
+              "category": "Regional Intergovernmental Organizations",
+              "conditions": [
+                "Eligible under the OIC Charter.",
+                "Wish to observe OIC activities."
+              ]
+            }
+
+          ]
+        }
+
+      ]
+    },
+
+    {
+      "chapter": 3,
+      "title": "Admission Requirements",
+
+      "articles": [
+
+        {
+          "article": 4,
+          "application_requirements": {
+            "submission_to": "Secretary General",
+            "submission_deadline": "At least 4 months before the CFM meeting",
+            "required_information": [
+
+              {
+                "requirement": "Muslim Population Statistics",
+                "details": "Percentage of Muslims compared with total population and followers of other religions."
+              },
+
+              {
+                "requirement": "Status of Muslims",
+                "details": "Information about legal protection, rights, and equality of Muslim communities."
+              }
+
+            ]
+          }
+        },
+
+        {
+          "article": 5,
+          "commitments": [
+            "Protect civil rights of Muslim minorities.",
+            "Protect political rights.",
+            "Protect economic rights.",
+            "Protect social rights.",
+            "Protect cultural rights.",
+            "Protect fundamental freedoms.",
+            "Treat Muslim citizens equally with all other citizens."
+          ]
+        },
+
+        {
+          "article": 6,
+          "additional_commitments": [
+            "Respect OIC Charter.",
+            "Support OIC objectives.",
+            "Not violate OIC resolutions.",
+            "Respect OIC regulations."
+          ]
+        },
+
+        {
+          "article": 7,
+          "requirement": "The applicant State must settle conflicts with OIC Member States before admission."
+        },
+
+        {
+          "article": 8,
+          "secretariat_responsibility": {
+            "action": "Circulate completed applications",
+            "deadline": "90 days before the Council meeting"
+          }
+        },
+
+        {
+          "article": 9,
+          "decision_process": {
+            "decision_maker": "Council of Foreign Ministers",
+            "decision_method": "Consensus only"
+          }
+        },
+
+        {
+          "article": 10,
+          "suspension_or_cancellation": {
+            "allowed": true,
+            "decision_method": "Consensus only",
+            "reason": "Failure to continue meeting Observer requirements.",
+            "restoration": "Observer Status may be restored once the reasons for suspension no longer exist."
+          }
+        }
+
+      ]
+    },
+
+    {
+      "chapter": 4,
+      "title": "Rights and Obligations",
+
+      "articles": [
+
+        {
+          "article": 11,
+
+          "rights": [
+
+            {
+              "right": "Statement in Plenary",
+              "condition": "Allowed only with approval of the Chairman and the Meeting."
+            },
+
+            {
+              "right": "Clarifications",
+              "condition": "May explain issues when requested or permitted."
+            },
+
+            {
+              "right": "Privileges",
+              "condition": "Receive privileges and immunities according to OIC agreements."
+            },
+
+            {
+              "right": "Attend Relevant Meetings",
+              "condition": "Only meetings related to their field of activity."
+            },
+
+            {
+              "right": "Participate in Working Groups",
+              "condition": "Requires invitation and Member State approval."
+            }
+
+          ],
+
+          "restrictions": [
+
+            "Cannot vote.",
+            "Cannot sponsor draft resolutions.",
+            "Cannot submit proposals.",
+            "Cannot submit draft resolutions.",
+            "Cannot nominate candidates in OIC elections.",
+            "Cannot attend closed sessions unless specifically approved."
+          ]
+        }
+
+      ]
+    },
+
+    {
+      "chapter": 5,
+      "title": "General Provisions",
+
+      "articles": [
+
+        {
+          "article": 12,
+          "financial_rule": {
+            "responsibility": "Observers pay their own participation expenses.",
+            "oic_obligation": "None"
+          }
+        },
+
+        {
+          "article": 13,
+          "guest_participation": {
+
+            "eligible_guests": [
+              "Muslim communities",
+              "Islamic institutions",
+              "Individual personalities",
+              "Representatives from non-member States"
+            ],
+
+            "conditions": [
+              "Must contribute to OIC objectives.",
+              "Invitation coordinated with host country.",
+              "Guest list circulated 60 days before meeting.",
+              "Member States may object up to 30 days before meeting."
+            ],
+
+            "additional_responsibility": "Secretary General prepares periodic reports about Muslim minorities in Observer States."
+          }
+        },
+
+        {
+          "article": 14,
+          "existing_observers": {
+            "rule": "Current Observers keep their status but become subject to these Rules after approval."
+          }
+        },
+
+        {
+          "article": 15,
+          "entry_into_force": {
+            "effective_date": "Immediately after approval by the Council."
+          }
+        }
+
+      ]
+    }
+
+  ],
+
+  "observer_application_workflow": [
+
+    {
+      "step": 1,
+      "action": "Prepare Observer application."
+    },
+
+    {
+      "step": 2,
+      "action": "Include Muslim population statistics."
+    },
+
+    {
+      "step": 3,
+      "action": "Include information on legal protection of Muslim communities."
+    },
+
+    {
+      "step": 4,
+      "action": "Commit to respecting the OIC Charter and its principles."
+    },
+
+    {
+      "step": 5,
+      "action": "Resolve conflicts with OIC Member States."
+    },
+
+    {
+      "step": 6,
+      "action": "Submit application to the Secretary General at least four months before the CFM meeting."
+    },
+
+    {
+      "step": 7,
+      "action": "General Secretariat reviews and circulates the application 90 days before the meeting."
+    },
+
+    {
+      "step": 8,
+      "action": "Council of Foreign Ministers reviews the application."
+    },
+
+    {
+      "step": 9,
+      "action": "Observer Status is granted only if consensus is reached."
+    }
+
+  ],
+
+  "observer_permissions": {
+    "allowed": [
+      "Attend approved meetings.",
+      "Deliver statements when permitted.",
+      "Receive necessary diplomatic privileges.",
+      "Participate in approved Working Groups."
+    ],
+
+    "not_allowed": [
+      "Vote.",
+      "Submit resolutions.",
+      "Sponsor resolutions.",
+      "Submit proposals.",
+      "Contest elections.",
+      "Attend closed meetings without approval."
+    ]
+  },
+
+  "summary": {
+    "eligible_applicants": [
+      "UN Member States",
+      "International Organizations",
+      "Regional Organizations"
+    ],
+    "application_deadline": "4 months before CFM",
+    "decision_authority": "Council of Foreign Ministers",
+    "decision_method": "Consensus",
+    "observer_can_vote": false,
+    "observer_can_submit_resolutions": false,
+    "observer_can_attend_closed_sessions": false,
+    "observer_status_can_be_revoked": true,
+    "rules_effective_after": "Council approval"
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "document": {
+    "title": "Rules of Procedure of the OIC Council of Foreign Ministers",
+    "organization": "Organization of Islamic Cooperation (OIC)",
+    "total_rules": 29,
+    "purpose": "Defines how the OIC Council of Foreign Ministers is organized, conducts meetings, debates, voting, and adopts decisions."
+  },
+
+  "definitions": {
+    "organization": "Organization of Islamic Cooperation",
+    "member_state": "Official member of the OIC",
+    "secretary_general": "Head of the OIC Secretariat",
+    "council": "Council of Foreign Ministers",
+    "simple_majority": "50% + 1",
+    "members_present_and_voting": "Only members who cast Yes or No votes"
+  },
+
+  "rules": [
+
+    {
+      "rule": 1,
+      "title": "Definitions",
+      "summary": [
+        "These rules govern the Council of Foreign Ministers.",
+        "They may also apply to other OIC meetings unless separate rules exist.",
+        "The Summit may also use these rules."
+      ]
+    },
+
+    {
+      "rule": 2,
+      "title": "Convening the Council",
+      "summary": [
+        "Regular session is held once every year.",
+        "Normally between April and June.",
+        "Hosted by member states using geographical rotation.",
+        "Minimum gap between regular sessions is 11 months.",
+        "Secretary General sends invitations at least 3 months before.",
+        "If host cannot organize, another venue or Jeddah headquarters is used.",
+        "Meeting may be postponed under exceptional circumstances.",
+        "Virtual meetings are allowed in exceptional cases."
+      ]
+    },
+
+    {
+      "rule": 3,
+      "title": "Quorum",
+      "summary": [
+        "Two-thirds of member states are required for quorum.",
+        "Expert meetings do not require quorum."
+      ]
+    },
+
+    {
+      "rule": 4,
+      "title": "Open and Closed Sessions",
+      "summary": [
+        "Opening session is public.",
+        "Chair decides whether other sessions are open or closed after consulting members."
+      ]
+    },
+
+    {
+      "rule": 5,
+      "title": "Extraordinary Meetings",
+      "summary": [
+        "Can be requested by a Member State or Secretary General.",
+        "Requires simple majority approval.",
+        "Notice normally sent one week before."
+      ]
+    },
+
+    {
+      "rule": 6,
+      "title": "Election of Bureau",
+      "summary": [
+        "Bureau consists of Chairman, three Vice-Chairmen, Rapporteur, and Secretary General.",
+        "Palestine is permanent Vice-Chair.",
+        "Host country chairs the meeting."
+      ]
+    },
+
+    {
+      "rule": 7,
+      "title": "Powers of Bureau",
+      "summary": [
+        "Handles procedural matters.",
+        "Advises Chairman.",
+        "Coordinates meeting management.",
+        "Does not negotiate political or legal issues."
+      ]
+    },
+
+    {
+      "rule": 8,
+      "title": "Preparatory Meetings",
+      "summary": [
+        "ICECS, PFC and Senior Officials Meeting are held before Council.",
+        "Council may establish Special Committee.",
+        "Schedules coordinated with Chairmanship."
+      ]
+    },
+
+    {
+      "rule": 9,
+      "title": "Draft Agenda",
+      "summary": [
+        "Prepared by Secretary General.",
+        "Sent one month before preparatory meetings.",
+        "Includes annual report, previous decisions, member proposals and Secretary General proposals.",
+        "Palestine and Jerusalem remain permanent agenda items.",
+        "Draft resolutions submitted two weeks before meeting."
+      ]
+    },
+
+    {
+      "rule": 10,
+      "title": "Supplementary Agenda",
+      "summary": [
+        "Members may add urgent items at least 15 days before meeting.",
+        "Must include explanation.",
+        "Supplementary agenda shared at least 10 days before."
+      ]
+    },
+
+    {
+      "rule": 11,
+      "title": "Agenda for Extraordinary Sessions",
+      "summary": [
+        "Only discusses issues for which session was called.",
+        "Agenda sent five days before."
+      ]
+    },
+
+    {
+      "rule": 12,
+      "title": "Secretary General Duties",
+      "summary": [
+        "Participates in all meetings.",
+        "Provides studies and clarification.",
+        "Organizes Secretariat work.",
+        "Coordinates with host country."
+      ]
+    },
+
+    {
+      "rule": 13,
+      "title": "Chairman's Duties",
+      "summary": [
+        "Presides over meetings.",
+        "Controls speaking order.",
+        "Maintains order.",
+        "Rules on points of order.",
+        "May limit speaking time.",
+        "Does not vote."
+      ]
+    },
+
+    {
+      "rule": 14,
+      "title": "Experts and Institutions",
+      "summary": [
+        "Council may invite experts or institutions.",
+        "Member States are informed one week before."
+      ]
+    },
+
+    {
+      "rule": 15,
+      "title": "Proposals",
+      "summary": [
+        "Proposals must be written.",
+        "Include financial impact and implementation method.",
+        "Normally circulated before discussion."
+      ]
+    },
+
+    {
+      "rule": 16,
+      "title": "Adjournment and Closure",
+      "summary": [
+        "Chair or Member State may propose postponement or closure.",
+        "Decision made by consensus or two-thirds majority."
+      ]
+    },
+
+    {
+      "rule": 17,
+      "title": "Priority of Motions",
+      "priority_order": [
+        "Suspend meeting",
+        "Close meeting",
+        "Adjourn debate",
+        "Refer issue to committee or Secretary General"
+      ]
+    },
+
+    {
+      "rule": 18,
+      "title": "Voting",
+      "summary": [
+        "Each Member State has one vote.",
+        "States may explain votes.",
+        "Members owing two years' contributions normally lose voting rights."
+      ]
+    },
+
+    {
+      "rule": 19,
+      "title": "Adoption of Resolutions",
+      "summary": [
+        "Consensus is preferred.",
+        "Otherwise requires two-thirds majority.",
+        "Procedural matters require simple majority.",
+        "Rejected proposals cannot normally be reconsidered during same session."
+      ]
+    },
+
+    {
+      "rule": 20,
+      "title": "Method of Voting",
+      "summary": [
+        "Usually by show of hands.",
+        "Roll-call if requested.",
+        "Secret ballot possible with required approval."
+      ]
+    },
+
+    {
+      "rule": 21,
+      "title": "Election of Secretary General",
+      "summary": [
+        "Elected by consensus or secret ballot.",
+        "Requires two-thirds majority.",
+        "Replacement follows geographical rotation."
+      ]
+    },
+
+    {
+      "rule": 22,
+      "title": "Abstention and Reservation",
+      "summary": [
+        "Members may abstain.",
+        "Reservations are officially recorded."
+      ]
+    },
+
+    {
+      "rule": 23,
+      "title": "Amendment of Proposals",
+      "summary": [
+        "Amendments voted before original proposal.",
+        "Accepted amendments become part of proposal."
+      ]
+    },
+
+    {
+      "rule": 24,
+      "title": "Rejection of Proposal",
+      "summary": [
+        "Tie vote allows second vote.",
+        "Second tie means proposal is rejected.",
+        "Proposal may be divided into separate parts for voting."
+      ]
+    },
+
+    {
+      "rule": 25,
+      "title": "Languages",
+      "official_languages": [
+        "Arabic",
+        "English",
+        "French"
+      ]
+    },
+
+    {
+      "rule": 26,
+      "title": "Circulation of Documents",
+      "summary": [
+        "Resolutions circulated within two weeks.",
+        "Draft minutes shared within two weeks.",
+        "Final reports issued within one month."
+      ]
+    },
+
+    {
+      "rule": 27,
+      "title": "Publication",
+      "summary": [
+        "Resolutions and recommendations are published unless Council decides otherwise."
+      ]
+    },
+
+    {
+      "rule": 28,
+      "title": "Amendment of Rules",
+      "summary": [
+        "Changes proposed four months in advance.",
+        "Major amendments circulated two months before.",
+        "Adopted by consensus or two-thirds majority."
+      ]
+    },
+
+    {
+      "rule": 29,
+      "title": "Entry into Force",
+      "summary": [
+        "Rules become effective immediately after approval by consensus or two-thirds majority."
+      ]
+    }
+
+  ]
+}

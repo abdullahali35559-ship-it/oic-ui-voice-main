@@ -1,0 +1,285 @@
+{
+  "document": {
+    "title": "Rules Governing the Granting of the OIC Affiliated-Institution Status",
+    "short_title": "OIC Affiliated Institution Status Rules",
+    "organization": "Organisation of Islamic Cooperation (OIC)",
+    "approved_by": "Council of Foreign Ministers (CFM)",
+    "legal_basis": "Article 25 of the OIC Charter",
+    "purpose": "Establishes the eligibility requirements, application procedures, rights, obligations, suspension, cancellation, and amendment mechanisms for institutions seeking OIC Affiliated-Institution Status."
+  },
+  "metadata": {
+    "chapters": 7,
+    "articles": 26,
+    "status_type": "Affiliated Institution Status",
+    "decision_authority": "Council of Foreign Ministers"
+  },
+  "definitions": {
+    "charter": {
+      "description": "Charter of the Organisation of Islamic Cooperation."
+    },
+    "organization": {
+      "description": "Organisation of Islamic Cooperation (OIC)."
+    },
+    "summit": {
+      "description": "Summit of Kings and Heads of State and Government of OIC Member States."
+    },
+    "council": {
+      "full_name": "Council of Foreign Ministers",
+      "short_name": "CFM"
+    },
+    "secretary_general": {
+      "description": "Secretary General of the OIC."
+    },
+    "general_secretariat": {
+      "description": "Administrative Secretariat of the OIC."
+    },
+    "subsidiary_organs": {
+      "description": "OIC Subsidiary Organs."
+    },
+    "specialized_organs": {
+      "description": "OIC Specialized Organs."
+    },
+    "affiliated_institution": {
+      "description": "An entity recognized by the Summit or the Council as affiliated to the OIC under Article 25 of the Charter."
+    },
+    "member_states": {
+      "description": "All Member States of the OIC."
+    }
+  },
+  "eligibility_criteria": {
+    "mandatory_requirements": [
+      {
+        "id": 1,
+        "requirement": "Official Submission by Host State",
+        "description": "Application must be submitted officially by the host Member State."
+      },
+      {
+        "id": 2,
+        "requirement": "Host State Endorsement",
+        "description": "Host State must confirm that the institution’s objectives are consistent with the OIC Charter."
+      },
+      {
+        "id": 3,
+        "requirement": "Charter Compatibility",
+        "description": "Institution’s statute and incorporation documents must align with OIC objectives and principles."
+      },
+      {
+        "id": 4,
+        "requirement": "Operational Presence",
+        "description": "Institution must operate in one or more OIC Member States."
+      },
+      {
+        "id": 5,
+        "requirement": "Headquarters in a Member State",
+        "description": "The headquarters must be located in one of the Member States where it operates."
+      },
+      {
+        "id": 6,
+        "requirement": "Legal Personality",
+        "description": "Institution must possess legal personality."
+      }
+    ]
+  },
+  "required_documents": {
+    "article_6": [
+      {
+        "document": "Application Form for Affiliated Institution Status",
+        "mandatory": true
+      },
+      {
+        "document": "Statute of the institution",
+        "mandatory": true
+      },
+      {
+        "document": "List of officials and their CVs",
+        "mandatory": true
+      },
+      {
+        "document": "Host State validation statement",
+        "mandatory": true
+      },
+      {
+        "document": "Activity and financial records for the last three years",
+        "mandatory": true
+      },
+      {
+        "document": "Headquarters agreement (if applicable)",
+        "mandatory": false
+      }
+    ]
+  },
+  "application_process": {
+    "step_1": {
+      "actor": "Institution",
+      "action": "Prepare application and supporting documents."
+    },
+    "step_2": {
+      "actor": "Host Member State",
+      "action": "Officially submit the application with endorsement letter."
+    },
+    "step_3": {
+      "actor": "General Secretariat",
+      "action": "Review application and verify compliance."
+    },
+    "step_4": {
+      "actor": "General Secretariat",
+      "action": "Circulate application to Member States one month before the Senior Officials’ Meeting."
+    },
+    "step_5": {
+      "actor": "Secretary General",
+      "action": "Prepare assessment report and recommendation."
+    },
+    "step_6": {
+      "actor": "Council of Foreign Ministers",
+      "action": "Seek to adopt a resolution by consensus."
+    },
+    "step_7": {
+      "actor": "Institution",
+      "action": "If rejected, may reapply after two years."
+    }
+  },
+  "decision_rules": {
+    "decision_method": "Consensus",
+    "legal_instrument": "Council Resolution",
+    "reapplication_waiting_period": "2 years",
+    "member_states_may_request_clarifications": true
+  },
+  "rights": [
+    {
+      "id": 1,
+      "right": "Observer Status",
+      "description": "May be granted observer status by a Council resolution."
+    },
+    {
+      "id": 2,
+      "right": "Voluntary Assistance",
+      "description": "May receive voluntary assistance from Member States, Subsidiary Organs, and Specialized Organs."
+    },
+    {
+      "id": 3,
+      "right": "Meeting Participation",
+      "description": "May be invited to Summit, Council, and other relevant OIC meetings."
+    },
+    {
+      "id": 4,
+      "right": "Submit Notes and Proposals",
+      "description": "May submit notes and proposals to the OIC and participate in deliberations."
+    },
+    {
+      "id": 5,
+      "right": "Information Circulation",
+      "description": "May provide activity information for circulation to Member States."
+    },
+    {
+      "id": 6,
+      "right": "Meeting Facilities",
+      "description": "Host States should seek to provide necessary facilities for representatives."
+    },
+    {
+      "id": 7,
+      "right": "Use of OIC Logo",
+      "description": "May use the OIC logo with the phrase ‘Organisation of Islamic Cooperation – affiliated institution’ with written approval of the Secretary General."
+    },
+    {
+      "id": 8,
+      "right": "Assignment of OIC Tasks",
+      "description": "May be assigned tasks under OIC resolutions and programs."
+    }
+  ],
+  "obligations": [
+    {
+      "id": 1,
+      "obligation": "Comply with OIC Objectives",
+      "description": "Must abide by OIC objectives, principles, and resolutions."
+    },
+    {
+      "id": 2,
+      "obligation": "Respect Member States",
+      "description": "Must respect sovereignty, independence, territorial integrity, and common interests of Member States."
+    },
+    {
+      "id": 3,
+      "obligation": "Annual Activity Report",
+      "description": "Must submit an annual report describing activities and regulatory changes."
+    },
+    {
+      "id": 4,
+      "obligation": "Annual Financial Assistance Report",
+      "description": "Must report how contributions or assistance from Member States or OIC organs were used."
+    },
+    {
+      "id": 5,
+      "obligation": "Notify Legal Status Changes",
+      "description": "Host State must immediately notify the General Secretariat if the institution is dissolved or loses legal status."
+    }
+  ],
+  "suspension": {
+    "maximum_duration": "2 years",
+    "grounds": [
+      "Failure to submit reports for two consecutive years.",
+      "Activities no longer serve OIC Charter objectives.",
+      "Institution commits excesses or prejudice against a Member State."
+    ],
+    "procedure": [
+      "General Secretariat identifies breach.",
+      "Institution is notified and given opportunity to address the issue.",
+      "Matter is referred to the Council.",
+      "Secretary General submits a report.",
+      "Council decides after consultation with concerned State(s)."
+    ],
+    "end_of_suspension": "Council may end suspension when grounds no longer exist."
+  },
+  "cancellation": {
+    "decision_method": "Consensus",
+    "grounds": [
+      "Deviation from OIC objectives and governing rules.",
+      "Grave abuse of affiliated status.",
+      "Submission of false activity reports.",
+      "Repeated prejudice against a Member State.",
+      "Improper use of the OIC logo.",
+      "Failure to remedy suspension grounds within two years."
+    ],
+    "effect": "Status is cancelled indefinitely.",
+    "regranting_allowed": false
+  },
+  "financial_rules": {
+    "oic_financial_obligation": false,
+    "description": "Granting affiliated status does not create financial obligations for the General Secretariat, Subsidiary Organs, Specialized Organs, or Member States."
+  },
+  "existing_institutions": {
+    "status_preserved": true,
+    "must_comply_with_new_rules": true
+  },
+  "amendments": {
+    "who_can_propose": "Any Member State",
+    "secretary_general_role": "Draw attention to necessary amendments.",
+    "adoption_method": "Same procedure used for adoption of the Rules."
+  },
+  "entry_into_force": {
+    "effective_date": "Date of adoption by the Council of Foreign Ministers."
+  },
+  "workflow_summary": [
+    "Institution prepares application.",
+    "Host State endorses and submits it.",
+    "General Secretariat reviews compliance.",
+    "Member States receive documents before the Senior Officials’ Meeting.",
+    "Secretary General submits assessment report.",
+    "Council seeks consensus decision.",
+    "Approved institution gains affiliated status and related rights.",
+    "Institution must submit annual activity and financial reports.",
+    "Non-compliance may lead to suspension or cancellation."
+  ],
+  "quick_reference": {
+    "host_state_required": true,
+    "legal_personality_required": true,
+    "must_operate_in_member_states": true,
+    "consensus_required_for_approval": true,
+    "observer_status_possible": true,
+    "can_use_oic_logo_with_approval": true,
+    "annual_reporting_required": true,
+    "maximum_suspension_period": "2 years",
+    "indefinite_cancellation_possible": true,
+    "reapply_after_rejection": "2 years",
+    "regrant_after_indefinite_cancellation": false
+  }
+}

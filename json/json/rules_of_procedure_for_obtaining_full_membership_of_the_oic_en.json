@@ -1,0 +1,235 @@
+{
+  "document": {
+    "id": "OIC-FULL-MEMBERSHIP-RULES",
+    "title": "Rules of Procedure for Obtaining Full Membership of the Organization of Islamic Cooperation",
+    "organization": "Organization of Islamic Cooperation (OIC)",
+    "document_type": "Rules of Procedure",
+    "legal_basis": {
+      "charter_article": "Article 3 of the OIC Charter",
+      "charter_adopted": {
+        "conference": "11th Islamic Summit Conference",
+        "location": "Dakar, Senegal",
+        "date": "13-14 March 2008"
+      }
+    },
+    "purpose": "Defines the eligibility requirements, application procedure, review process, approval process, and activation of full membership in the OIC."
+  },
+
+  "actors": {
+    "ApplicantState": {
+      "role": "Country requesting full OIC membership"
+    },
+    "SecretaryGeneral": {
+      "role": "Receives applications, informs Member States, provides opinion"
+    },
+    "CouncilOfForeignMinisters": {
+      "role": "Approves or rejects membership requests"
+    },
+    "MemberStates": {
+      "role": "Receive notification of applications"
+    }
+  },
+
+  "eligibility": {
+    "mandatory_requirements": [
+      {
+        "id": "ELG-001",
+        "requirement": "Applicant must be a member of the United Nations.",
+        "mandatory": true
+      },
+      {
+        "id": "ELG-002",
+        "requirement": "Applicant must have a Muslim majority population.",
+        "mandatory": true
+      }
+    ],
+    "approval_method": "Consensus of the Council of Foreign Ministers"
+  },
+
+  "application": {
+    "submission": {
+      "recipient": "Secretary General",
+      "format": "Written request",
+      "minimum_notice": "90 days before the ordinary session of the Council of Foreign Ministers"
+    },
+    "declaration": {
+      "required": true,
+      "must_include": [
+        "Applicant wishes to become a full member.",
+        "Applicant agrees to abide by the objectives of the OIC Charter.",
+        "Applicant agrees to follow the principles of the OIC Charter.",
+        "Applicant agrees to fulfill all obligations of the OIC Charter."
+      ]
+    }
+  },
+
+  "required_information": [
+    {
+      "id": "INFO-001",
+      "field": "Muslim population ratio",
+      "description": "Percentage of Muslims compared to the total population."
+    },
+    {
+      "id": "INFO-002",
+      "field": "Religious composition",
+      "description": "Ratio of Muslims compared to followers of other religions."
+    },
+    {
+      "id": "INFO-003",
+      "field": "Status of Muslim communities",
+      "description": "Information about Muslim communities living under the applicant state's jurisdiction."
+    },
+    {
+      "id": "INFO-004",
+      "field": "National legislation",
+      "description": "Information showing that Muslim communities enjoy equal rights under national laws."
+    },
+    {
+      "id": "INFO-005",
+      "field": "Previous OIC condemnations",
+      "description": "Applicant must not have been condemned by an OIC Resolution because of policies or practices toward Muslim communities."
+    }
+  ],
+
+  "secretary_general_process": {
+    "after_receiving_application": [
+      {
+        "step": 1,
+        "action": "Verify the application."
+      },
+      {
+        "step": 2,
+        "action": "Inform all Member States within 30 days."
+      },
+      {
+        "step": 3,
+        "action": "Provide the General Secretariat's opinion regarding the application."
+      }
+    ]
+  },
+
+  "council_review": {
+    "meeting": "Ordinary Session of the Council of Foreign Ministers",
+    "late_submission_rule": {
+      "condition": "Application submitted less than 90 days before the session.",
+      "result": "Application is postponed to the next ordinary session."
+    },
+    "decision_rule": {
+      "method": "Consensus only",
+      "majority_vote_allowed": false
+    }
+  },
+
+  "membership_activation": {
+    "effective_date": "Date when the Instrument of Ratification of the OIC Charter is deposited with the General Secretariat.",
+    "result": "Applicant immediately becomes entitled to exercise OIC membership rights."
+  },
+
+  "exceptions": [
+    {
+      "id": "EX-001",
+      "rule": "Existing Member States are not affected by these Rules of Procedure."
+    }
+  ],
+
+  "entry_into_force": {
+    "condition": "Rules become effective immediately after approval by the Council of Foreign Ministers."
+  },
+
+  "workflow": {
+    "step_1": {
+      "actor": "Applicant State",
+      "action": "Prepare written membership request."
+    },
+    "step_2": {
+      "actor": "Applicant State",
+      "action": "Attach all required declarations and supporting information."
+    },
+    "step_3": {
+      "actor": "Applicant State",
+      "action": "Submit application at least 90 days before the Council meeting."
+    },
+    "step_4": {
+      "actor": "Secretary General",
+      "action": "Receive and review the application."
+    },
+    "step_5": {
+      "actor": "Secretary General",
+      "action": "Notify Member States within 30 days and provide an opinion."
+    },
+    "step_6": {
+      "actor": "Council of Foreign Ministers",
+      "action": "Review the application during the ordinary session."
+    },
+    "step_7": {
+      "actor": "Council of Foreign Ministers",
+      "action": "Approve only if consensus is reached."
+    },
+    "step_8": {
+      "actor": "Applicant State",
+      "action": "Deposit Instrument of Ratification."
+    },
+    "step_9": {
+      "actor": "OIC",
+      "action": "Grant full membership rights."
+    }
+  },
+
+  "decision_tree": {
+    "Is UN Member?": {
+      "No": "Reject application",
+      "Yes": {
+        "Has Muslim Majority?": {
+          "No": "Reject application",
+          "Yes": {
+            "Submitted 90 Days Before Session?": {
+              "No": "Move application to next ordinary Council session",
+              "Yes": {
+                "No OIC Condemnation Regarding Muslim Communities?": {
+                  "No": "Application may not satisfy requirements",
+                  "Yes": {
+                    "Council Consensus Achieved?": {
+                      "No": "Membership not approved",
+                      "Yes": {
+                        "Instrument of Ratification Deposited?": {
+                          "No": "Membership rights not yet active",
+                          "Yes": "Full OIC Membership Granted"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "important_deadlines": {
+    "application_submission": "90 days before Council session",
+    "member_state_notification": "Within 30 days after application is received"
+  },
+
+  "knowledge_graph": {
+    "Applicant State": [
+      "Submits Application",
+      "Provides Declaration",
+      "Provides Population Information",
+      "Deposits Instrument of Ratification"
+    ],
+    "Secretary General": [
+      "Receives Application",
+      "Notifies Member States",
+      "Provides Opinion"
+    ],
+    "Council of Foreign Ministers": [
+      "Reviews Application",
+      "Approves by Consensus"
+    ],
+    "Instrument of Ratification": [
+      "Activates Membership Rights"
+    ]
+  }
+}

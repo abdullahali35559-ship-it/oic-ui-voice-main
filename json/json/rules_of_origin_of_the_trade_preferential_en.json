@@ -1,0 +1,490 @@
+{
+  "document": {
+    "title": "TPS-OIC Rules of Origin",
+    "organization": "Organization of Islamic Cooperation (OIC)",
+    "version": "2007",
+    "purpose": "Defines the rules for determining whether products qualify for preferential tariff treatment under TPS-OIC."
+  },
+
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "General Provisions",
+
+      "articles": [
+        {
+          "article": 1,
+          "title": "Scope",
+          "summary": [
+            "Defines the TPS-OIC Rules of Origin.",
+            "Applies to products seeking preferential tariff treatment."
+          ]
+        },
+
+        {
+          "article": 2,
+          "title": "Definitions",
+
+          "definitions": {
+            "HS": "Harmonized Commodity Description and Coding System",
+            "Goods": "Materials and finished products",
+            "Material": "Raw material, ingredient or component",
+            "Product": "Manufactured product",
+            "Manufacture": "Processing, assembly or production activity",
+            "Consignment": "Shipment covered by one transport document or invoice",
+            "ExWorksPrice": "Price of product leaving manufacturer excluding refundable taxes",
+            "ValueAdded": "Ex-works price minus value of imported originating materials",
+            "CustomsValue": "Transaction value determined according to customs valuation methods"
+          }
+        }
+      ]
+    },
+
+    {
+      "chapter": 2,
+      "title": "Originating Products",
+
+      "articles": [
+
+        {
+          "article": 3,
+          "title": "General Requirements",
+
+          "product_is_originating_if": [
+            {
+              "condition": "Wholly Produced",
+              "reference": "Article 4"
+            },
+            {
+              "condition": "Sufficiently Worked or Processed",
+              "reference": "Article 5"
+            }
+          ]
+        },
+
+        {
+          "article": 4,
+          "title": "Wholly Produced Products",
+
+          "categories": [
+
+            "Minerals extracted",
+            "Agricultural products harvested",
+            "Animals born and raised",
+            "Products from animals",
+            "Fishing products",
+            "Sea products from qualifying vessels",
+            "Factory ship products",
+            "Waste and scrap",
+            "Recovered raw materials",
+            "Products made exclusively from above materials"
+
+          ]
+        },
+
+        {
+          "article": 5,
+          "title": "Sufficient Working or Processing",
+
+          "rules": {
+
+            "maximum_non_originating_material": "60% of Ex-Works Price",
+
+            "least_developed_countries": {
+              "extra_non_originating_material": "10%",
+              "validity": "First 5 years"
+            }
+
+          }
+
+        },
+
+        {
+          "article": 6,
+          "title": "Cumulation",
+
+          "conditions": {
+
+            "processing_required": true,
+
+            "minimum_originating_content": {
+              "normal": "40%",
+              "least_developed_country": "30%"
+            }
+
+          }
+        },
+
+        {
+          "article": 7,
+          "title": "Insufficient Processing",
+
+          "does_not_confer_origin": [
+
+            "Packing",
+            "Simple mixing",
+            "Simple bottling",
+            "Labeling",
+            "Sorting",
+            "Grading",
+            "Simple assembly",
+            "Cleaning",
+            "Ironing",
+            "Painting",
+            "Peeling",
+            "Cutting",
+            "Screening",
+            "Slaughter"
+
+          ]
+        },
+
+        {
+          "article": 8,
+          "title": "Unit of Qualification",
+
+          "rules": [
+
+            "Classification follows HS system",
+            "Each identical product evaluated individually",
+            "Packaging included if HS rules require it"
+
+          ]
+        },
+
+        {
+          "article": 9,
+          "title": "Accessories",
+
+          "treated_as_part_of_main_product_if": [
+
+            "Normal equipment",
+            "Included in price",
+            "Not separately invoiced"
+
+          ]
+        },
+
+        {
+          "article": 10,
+          "title": "Sets",
+
+          "rule": "Entire set qualifies if origin requirements are satisfied."
+        },
+
+        {
+          "article": 11,
+          "title": "Neutral Elements",
+
+          "ignored_when_determining_origin": [
+
+            "Fuel",
+            "Energy",
+            "Machines",
+            "Equipment",
+            "Tools"
+
+          ]
+        },
+
+        {
+          "article": 12,
+          "title": "Prohibition",
+
+          "summary": "Participating states may prohibit imports containing materials from countries with which they have no commercial relations."
+        }
+
+      ]
+    },
+
+    {
+      "chapter": 3,
+      "title": "Territorial Requirements",
+
+      "articles": [
+
+        {
+          "article": 13,
+
+          "title": "Direct Consignment",
+
+          "allowed": [
+
+            "Direct shipment",{
+
+            "Transit through third country only if": {
+              "No trade": true,
+              "No processing": true,
+              "Transport justified": true,
+              "Supporting transport documents available": true
+            }
+}
+          ]
+        },
+
+        {
+          "article": 14,
+
+          "title": "Exhibitions",
+
+          "requirements": [
+
+            "Goods exported for exhibition",
+            "Sold after exhibition",
+            "Remain under customs control",
+            "Certificate of Origin required"
+
+          ]
+        }
+
+      ]
+    },
+
+    {
+      "chapter": 4,
+      "title": "Certificate of Origin",
+
+      "workflow": {
+
+        "step1": "Exporter submits application",
+
+        "step2": "Authorities verify origin",
+
+        "step3": "Certificate issued",
+
+        "step4": "Importer presents certificate",
+
+        "step5": "Customs grants preferential treatment"
+
+      },
+
+      "articles": [
+
+        {
+          "article": 15,
+          "title": "Certificate Requirement"
+        },
+
+        {
+          "article": 16,
+
+          "title": "Issuing Procedure",
+
+          "requirements": [
+
+            "Written application",
+            "Completed official form",
+            "Supporting evidence",
+            "Verification by issuing authority"
+
+          ]
+        },
+
+        {
+          "article": 17,
+
+          "title": "Retrospective Certificate",
+
+          "conditions": [
+
+            "Issued within 6 months after shipment",
+            "Allowed for errors or special circumstances"
+
+          ]
+        },
+
+        {
+          "article": 18,
+
+          "title": "Duplicate Certificate",
+
+          "issued_when": [
+
+            "Lost",
+            "Destroyed",
+            "Stolen"
+
+          ]
+        },
+
+        {
+          "article": 19,
+
+          "title": "Replacement Certificate",
+
+          "summary": "New certificates may replace existing certificates when goods remain under customs control."
+        },
+
+        {
+          "article": 20,
+
+          "title": "Validity",
+
+          "certificate_validity": "6 months"
+        },
+
+        {
+          "article": 21,
+
+          "title": "Submission",
+
+          "summary": "Certificate submitted according to importing country's customs procedures."
+        },
+
+        {
+          "article": 22,
+
+          "title": "Import by Instalments",
+
+          "rule": "Single certificate may cover multiple shipments."
+        },
+
+        {
+          "article": 23,
+
+          "title": "Supporting Documents",
+
+          "examples": [
+
+            "Invoices",
+            "Manufacturing records",
+            "Previous Certificates of Origin",
+            "Material origin documents"
+
+          ]
+        },
+
+        {
+          "article": 24,
+
+          "title": "Document Retention",
+
+          "retention_period": "3 years"
+        },
+
+        {
+          "article": 25,
+
+          "title": "Minor Errors",
+
+          "summary": "Minor typing mistakes do not invalidate the certificate."
+        }
+
+      ]
+    },
+
+    {
+      "chapter": 5,
+      "title": "Administrative Cooperation",
+
+      "articles": [
+
+        {
+          "article": 26,
+
+          "title": "Mutual Assistance",
+
+          "summary": "Participating states exchange stamps and cooperate in verification."
+        },
+
+        {
+          "article": 27,
+
+          "title": "Verification",
+
+          "rules": {
+
+            "verification": "Random or when doubts arise",
+
+            "maximum_reply_time": "10 months",
+
+            "failure_to_reply": "Preferential treatment may be refused"
+
+          }
+        },
+
+        {
+          "article": 28,
+          "title": "Dispute Settlement"
+        },
+
+        {
+          "article": 29,
+          "title": "Penalties"
+        },
+
+        {
+          "article": 30,
+          "title": "Free Zones"
+        }
+
+      ]
+    },
+
+    {
+      "chapter": 6,
+
+      "title": "Final Provisions",
+
+      "articles": [
+
+        {
+          "article": 31,
+          "title": "Goods in Transit"
+        },
+
+        {
+          "article": 32,
+          "title": "Amendments"
+        },
+
+        {
+          "article": 33,
+          "title": "Entry into Force"
+        },
+
+        {
+          "article": 34,
+          "title": "Annex"
+        }
+
+      ]
+    }
+  ],
+
+  "certificate": {
+
+    "required_fields": [
+
+      "Exporter",
+      "Consignee",
+      "Origin Country",
+      "Destination Country",
+      "Transport Details",
+      "Remarks",
+      "HS Code",
+      "Goods Description",
+      "Gross Weight",
+      "Invoice Number",
+      "Exporter Declaration",
+      "Authority Endorsement"
+
+    ]
+  },
+
+  "important_thresholds": {
+
+    "max_non_originating_material": "60%",
+
+    "minimum_originating_content": "40%",
+
+    "least_developed_country_originating_content": "30%",
+
+    "certificate_validity": "6 months",
+
+    "document_retention": "3 years",
+
+    "verification_response_deadline": "10 months"
+
+  }
+}

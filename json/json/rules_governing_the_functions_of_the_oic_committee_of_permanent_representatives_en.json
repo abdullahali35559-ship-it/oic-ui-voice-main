@@ -1,0 +1,223 @@
+{
+  "document": {
+    "title": "Rules Governing the Functions of the OIC Committee of Permanent Representatives and its Modes of Operation",
+    "organization": "Organization of Islamic Cooperation (OIC)",
+    "governing_body": "Committee of Permanent Representatives (CPR)",
+    "adopted_by": "Council of Foreign Ministers (CFM)",
+    "purpose": "Defines the role, responsibilities, meetings, and operational procedures of the Committee of Permanent Representatives."
+  },
+
+  "metadata": {
+    "total_articles": 8,
+    "applies_to": "Committee of Permanent Representatives",
+    "legal_basis": "Article 5 of the OIC Charter"
+  },
+
+  "definitions": {
+    "Rules": {
+      "meaning": "Rules Governing the Functions of the OIC Committee of Permanent Representatives and its Modes of Operation"
+    },
+
+    "OIC": {
+      "full_name": "Organization of Islamic Cooperation"
+    },
+
+    "CFM": {
+      "full_name": "Council of Foreign Ministers"
+    },
+
+    "Charter": {
+      "meaning": "Charter of the Organization of Islamic Cooperation"
+    },
+
+    "Member_State": {
+      "meaning": "Any country that is officially a member of the OIC"
+    },
+
+    "General_Secretariat": {
+      "meaning": "Administrative body of the Organization of Islamic Cooperation"
+    },
+
+    "Secretary_General": {
+      "meaning": "Head of the OIC General Secretariat"
+    },
+
+    "Committee": {
+      "full_name": "Committee of Permanent Representatives",
+      "short_name": "CPR"
+    },
+
+    "Permanent_Representative": {
+      "meaning": "Official representative of an OIC Member State"
+    }
+  },
+
+  "committee": {
+    "name": "Committee of Permanent Representatives",
+    "short_name": "CPR",
+    "type": "Permanent OIC Organ",
+    "established_under": "Article 5 of the OIC Charter",
+    "membership": {
+      "members": "Permanent Representatives of all OIC Member States"
+    },
+    "reports_to": "Council of Foreign Ministers (CFM)"
+  },
+
+  "articles": [
+
+    {
+      "article": 1,
+      "title": "Definitions",
+      "objective": "Defines the important terms used throughout the Rules.",
+      "key_points": [
+        "Defines OIC.",
+        "Defines CFM.",
+        "Defines Charter.",
+        "Defines Member States.",
+        "Defines General Secretariat.",
+        "Defines Secretary General.",
+        "Defines Committee.",
+        "Defines Permanent Representative."
+      ]
+    },
+
+    {
+      "article": 2,
+      "title": "Status of the Committee",
+      "objective": "Explains the legal status of the Committee.",
+      "key_points": [
+        "The Committee is an official organ of the OIC.",
+        "It consists of Permanent Representatives of Member States.",
+        "Its legal authority comes from Article 5 of the OIC Charter."
+      ]
+    },
+
+    {
+      "article": 3,
+      "title": "Functions of the Committee",
+      "objective": "Defines the responsibilities of the Committee.",
+      "functions": [
+
+        {
+          "id": 1,
+          "name": "Coordination",
+          "description": "Coordinate among Member States, the General Secretariat, and all OIC organs.",
+          "purpose": "Improve cooperation across the Organization."
+        },
+
+        {
+          "id": 2,
+          "name": "Implementation Follow-up",
+          "description": "Assist the General Secretariat in monitoring implementation of CFM resolutions and recommendations.",
+          "purpose": "Ensure decisions are actually carried out."
+        },
+
+        {
+          "id": 3,
+          "name": "Expert Advisory Role",
+          "description": "Serve as an expert body whenever requested by the CFM.",
+          "purpose": "Provide technical advice and analysis."
+        },
+
+        {
+          "id": 4,
+          "name": "Working Groups",
+          "description": "Recommend creation of temporary (ad hoc) working groups when necessary.",
+          "requirements": [
+            "Clearly define mandate.",
+            "Clearly define duration.",
+            "Clearly define responsibilities."
+          ]
+        },
+
+        {
+          "id": 5,
+          "name": "Institutional Improvement",
+          "description": "Recommend ways to improve efficiency and rationalize OIC activities."
+        },
+
+        {
+          "id": 6,
+          "name": "Additional Tasks",
+          "description": "Carry out any other responsibilities assigned by the Council of Foreign Ministers."
+        }
+
+      ]
+    },
+
+    {
+      "article": 4,
+      "title": "Meetings",
+      "objective": "Defines how often the Committee meets.",
+      "meeting_schedule": {
+        "ordinary_meetings": {
+          "frequency": "4 meetings every year",
+          "interval": "Every 3 months"
+        },
+        "extraordinary_meetings": {
+          "allowed": true,
+          "condition": "Whenever necessary according to the Rules of Procedure."
+        }
+      }
+    },
+
+    {
+      "article": 5,
+      "title": "Reporting",
+      "objective": "Defines how Committee decisions are handled.",
+      "reporting_process": {
+        "reports_submitted_to": "Council of Foreign Ministers",
+        "purpose": "For appropriate consideration and action."
+      }
+    },
+
+    {
+      "article": 6,
+      "title": "Applicable Rules",
+      "objective": "Specifies which rules apply when these Rules are silent.",
+      "key_points": [
+        "If an issue is not covered here, the official Rules of Procedure will apply."
+      ]
+    },
+
+    {
+      "article": 7,
+      "title": "Amendments",
+      "objective": "Defines amendment authority.",
+      "key_points": [
+        "The Committee may recommend amendments to these Rules."
+      ]
+    },
+
+    {
+      "article": 8,
+      "title": "Entry into Force",
+      "objective": "Defines when these Rules become legally effective.",
+      "key_points": [
+        "The Rules become effective immediately after adoption by the Council of Foreign Ministers."
+      ]
+    }
+
+  ],
+
+  "workflow": {
+    "step_1": "Permanent Representatives meet.",
+    "step_2": "Coordinate with Member States and the General Secretariat.",
+    "step_3": "Review implementation of CFM resolutions.",
+    "step_4": "Identify issues requiring expert analysis.",
+    "step_5": "Recommend ad hoc working groups if needed.",
+    "step_6": "Prepare recommendations and improvement proposals.",
+    "step_7": "Submit outcomes to the Council of Foreign Ministers.",
+    "step_8": "CFM considers and takes appropriate action."
+  },
+
+  "summary": {
+    "primary_role": "Coordination and implementation monitoring.",
+    "main_reporting_body": "Council of Foreign Ministers",
+    "meeting_frequency": "Quarterly (every three months)",
+    "can_hold_extraordinary_meetings": true,
+    "can_create_working_groups": true,
+    "can_propose_rule_amendments": true,
+    "decision_output": "Recommendations and reports for the Council of Foreign Ministers"
+  }
+}

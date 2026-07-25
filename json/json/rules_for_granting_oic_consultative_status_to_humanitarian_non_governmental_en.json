@@ -1,0 +1,385 @@
+{
+  "document": {
+    "title": "Rules for Granting OIC Consultative Status to Humanitarian Non-Governmental Organizations",
+    "short_title": "OIC Consultative Status Rules for Humanitarian NGOs",
+    "organization": "Organization of Islamic Cooperation (OIC)",
+    "approved_by": "Council of Foreign Ministers (CFM)",
+    "purpose": "Establishes the eligibility requirements, application process, rights, obligations, suspension procedures, and governance for humanitarian NGOs seeking OIC Consultative Status."
+  },
+
+  "metadata": {
+    "chapters": 6,
+    "articles": 9,
+    "scope": "Humanitarian Non-Governmental Organizations",
+    "status_type": "Consultative Status"
+  },
+
+  "definitions": {
+    "charter": {
+      "description": "Charter of the Organization of Islamic Cooperation."
+    },
+
+    "organization": {
+      "description": "Organization of Islamic Cooperation (OIC)."
+    },
+
+    "council": {
+      "full_name": "Council of Foreign Ministers",
+      "short_name": "CFM"
+    },
+
+    "general_secretariat": {
+      "description": "Administrative Secretariat of the OIC."
+    },
+
+    "secretary_general": {
+      "description": "Head of the OIC General Secretariat."
+    },
+
+    "application": {
+      "description": "Official request submitted by a humanitarian NGO to obtain OIC Consultative Status."
+    },
+
+    "humanitarian_ngo": {
+      "description": "A legally registered humanitarian NGO headquartered in an OIC Member State or an accredited humanitarian organization serving Muslim minorities and communities."
+    },
+
+    "consultative_status": {
+      "description": "Official OIC recognition allowing qualified NGOs to participate in specified OIC meetings and provide humanitarian advice."
+    }
+  },
+
+  "eligibility": {
+    "mandatory_requirements": [
+
+      {
+        "id": 1,
+        "requirement": "Government Approval",
+        "description": "The NGO must have approval from the government of its headquarters State."
+      },
+
+      {
+        "id": 2,
+        "requirement": "Legal Personality",
+        "description": "The NGO must be a legally recognized organization."
+      },
+
+      {
+        "id": 3,
+        "requirement": "Independent Administration",
+        "description": "The NGO must have independent administrative and financial management."
+      },
+
+      {
+        "id": 4,
+        "requirement": "Transparency",
+        "description": "The NGO must maintain transparent administrative and financial auditing systems."
+      },
+
+      {
+        "id": 5,
+        "requirement": "Official Registration",
+        "description": "The NGO must be officially registered and licensed."
+      },
+
+      {
+        "id": 6,
+        "requirement": "Location",
+        "description": "Headquarters must be located in an OIC Member State OR the NGO must officially represent Muslim minorities or communities."
+      },
+
+      {
+        "id": 7,
+        "requirement": "Humanitarian Experience",
+        "description": "The NGO must have already carried out humanitarian activities in one or more OIC Member States or for Muslim minorities."
+      },
+
+      {
+        "id": 8,
+        "requirement": "Parent Organization",
+        "description": "Consultative Status is granted only to the parent organization, not to branches."
+      },
+
+      {
+        "id": 9,
+        "requirement": "Charter Compliance",
+        "description": "The NGO's objectives must not conflict with the OIC Charter."
+      },
+
+      {
+        "id": 10,
+        "requirement": "Host Member State Approval",
+        "description": "If the NGO works mainly in another Member State, approval from that State is required."
+      }
+
+    ]
+  },
+
+  "application_process": {
+
+    "submission": {
+      "submitted_to": "General Secretariat",
+      "method": "Official OIC Application Form"
+    },
+
+    "general_secretariat_responsibilities": [
+
+      "Receive applications.",
+      "Review eligibility.",
+      "Verify documents.",
+      "Confirm compliance with all Rules.",
+      "Prepare recommendations."
+    ],
+
+    "secretary_general": {
+      "responsibilities": [
+        "Recommend qualified NGOs.",
+        "Circulate eligible applications to Member States at least 90 days before the next Council session.",
+        "Prepare a detailed report for the Council."
+      ]
+    },
+
+    "decision_process": {
+      "recommendation_by": "Senior Officials Meeting",
+      "decision_by": "Council of Foreign Ministers",
+      "decision_method": "Consensus"
+    },
+
+    "post_approval_requirement": {
+      "description": "The NGO must immediately inform the General Secretariat whenever its registered activities change."
+    }
+
+  },
+
+  "suspension_and_withdrawal": {
+
+    "authority": "Council of Foreign Ministers",
+
+    "decision_method": "Consensus",
+
+    "grounds": [
+
+      {
+        "id": 1,
+        "reason": "Deviation from objectives."
+      },
+
+      {
+        "id": 2,
+        "reason": "Violation of applicable laws or regulations."
+      },
+
+      {
+        "id": 3,
+        "reason": "Loss of operating license."
+      },
+
+      {
+        "id": 4,
+        "reason": "Failure to continue meeting eligibility requirements."
+      },
+
+      {
+        "id": 5,
+        "reason": "Changing organizational activities without reconsideration of status."
+      }
+
+    ],
+
+    "penalties": {
+
+      "first_violation": {
+        "action": "Suspend Consultative Status",
+        "duration": "1 year"
+      },
+
+      "continued_violation": {
+        "possible_actions": [
+          "Extend suspension for another year.",
+          "Withdraw Consultative Status permanently."
+        ]
+      },
+
+      "effective_date": "Immediately after Council decision."
+    }
+
+  },
+
+  "organization_and_meetings": {
+
+    "coordination": {
+      "required": true,
+      "description": "NGOs holding Consultative Status must establish a coordination mechanism among themselves."
+    },
+
+    "financial_rule": {
+      "oic_financial_support": false
+    },
+
+    "periodic_meetings": {
+      "allowed": true,
+      "timing": "Shortly before ordinary Summit or Council sessions."
+    },
+
+    "coordinating_department": {
+      "name": "Department of Humanitarian Affairs"
+    }
+
+  },
+
+  "participation": {
+
+    "meeting_invitations": {
+
+      "issued_by": "Secretary General",
+
+      "requires": [
+        "Coordination with Host State",
+        "No objection from Member States"
+      ],
+
+      "eligible_meetings": [
+
+        "Council of Foreign Ministers",
+
+        "Sectoral Ministerial Meetings",
+
+        "Standing Committee Meetings"
+
+      ]
+    },
+
+    "notification_schedule": {
+
+      "invite_list_sent": "60 days before meeting",
+
+      "member_state_objection_deadline": "30 days before meeting"
+
+    }
+
+  },
+
+  "rights": [
+
+    {
+      "id": 1,
+      "right": "Attend approved OIC meetings."
+    },
+
+    {
+      "id": 2,
+      "right": "Submit written activity reports."
+    },
+
+    {
+      "id": 3,
+      "right": "Distribute written statements (maximum 2,000 words)."
+    },
+
+    {
+      "id": 4,
+      "right": "Deliver brief oral statements based on submitted reports."
+    }
+
+  ],
+
+  "restrictions": [
+
+    {
+      "id": 1,
+      "restriction": "Cannot submit proposals."
+    },
+
+    {
+      "id": 2,
+      "restriction": "Cannot submit draft resolutions."
+    },
+
+    {
+      "id": 3,
+      "restriction": "Cannot sponsor draft resolutions."
+    },
+
+    {
+      "id": 4,
+      "restriction": "Cannot vote."
+    }
+
+  ],
+
+  "workflow": [
+
+    {
+      "step": 1,
+      "action": "NGO verifies eligibility requirements."
+    },
+
+    {
+      "step": 2,
+      "action": "Obtain headquarters government approval."
+    },
+
+    {
+      "step": 3,
+      "action": "Complete the official OIC application."
+    },
+
+    {
+      "step": 4,
+      "action": "Submit application to the General Secretariat."
+    },
+
+    {
+      "step": 5,
+      "action": "General Secretariat reviews documents."
+    },
+
+    {
+      "step": 6,
+      "action": "Secretary General evaluates and prepares recommendations."
+    },
+
+    {
+      "step": 7,
+      "action": "Qualified applications are circulated to Member States at least 90 days before the Council session."
+    },
+
+    {
+      "step": 8,
+      "action": "Senior Officials Meeting reviews the application."
+    },
+
+    {
+      "step": 9,
+      "action": "Council of Foreign Ministers decides by consensus."
+    },
+
+    {
+      "step": 10,
+      "action": "Approved NGO receives OIC Consultative Status."
+    },
+
+    {
+      "step": 11,
+      "action": "NGO participates in eligible meetings while continuously maintaining compliance."
+    }
+
+  ],
+
+  "summary": {
+    "eligible_organizations": "Qualified Humanitarian NGOs",
+    "headquarters_required": true,
+    "legal_registration_required": true,
+    "humanitarian_experience_required": true,
+    "government_approval_required": true,
+    "decision_authority": "Council of Foreign Ministers",
+    "decision_method": "Consensus",
+    "can_vote": false,
+    "can_submit_resolutions": false,
+    "can_submit_written_statements": true,
+    "can_deliver_oral_statements": true,
+    "status_can_be_suspended": true,
+    "status_can_be_withdrawn": true,
+    "effective_date": "Upon adoption by the Council of Foreign Ministers"
+  }
+}

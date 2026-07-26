@@ -36,7 +36,7 @@ const AppInner = () => {
             if (parsed && parsed.length > 0 && parsed[0].id === 'doc-1') {
                 return initialMockData.documents; // Force update to real OIC documents
             }
-            return (parsed && parsed.length > 0) ? parsed : initialMockData.documents;
+            return parsed !== null ? parsed : initialMockData.documents;
         } catch { return initialMockData.documents; }
     });
     const [oicDocuments, setOicDocuments] = useState(() => {

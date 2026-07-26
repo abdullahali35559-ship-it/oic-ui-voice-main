@@ -42,6 +42,7 @@ export const DocumentsPage = ({
     
     // Selection state
     const [selectedDocId, setSelectedDocId] = useState(null);
+    const [selectedDocIsOic, setSelectedDocIsOic] = useState(false);
     const [viewingDoc, setViewingDoc] = useState(null);
     const [viewingHistoryVersion, setViewingHistoryVersion] = useState(null);
     const [isEditing, setIsEditing] = useState(false);
@@ -123,18 +124,20 @@ export const DocumentsPage = ({
 
     const handleDeleteSelected = () => {
         if (!selectedDocId) return;
-        if (typeof selectedDocId === 'string' && selectedDocId.startsWith('oic-')) {
+        if (selectedDocIsOic) {
             setOicDocuments(prev => prev.filter(doc => doc.id !== selectedDocId));
         } else {
             setDocuments(prev => prev.filter(doc => doc.id !== selectedDocId));
         }
         setSelectedDocId(null);
+        setSelectedDocIsOic(false);
         setViewingDoc(null);
         setIsEditing(false);
     };
 
-    const handleRowClick = (doc) => {
+    const handleRowClick = (doc, isOic = false) => {
         setSelectedDocId(doc.id);
+        setSelectedDocIsOic(isOic);
         setViewingDoc(doc);
         setIsEditing(false);
         setEditContent(defaultContent(doc));
@@ -151,7 +154,7 @@ export const DocumentsPage = ({
         const lastEdited = new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
         const updated = { ...viewingDoc, content: editContent, version: nextVer, lastEdited };
 
-        if (typeof viewingDoc.id === 'string' && String(viewingDoc.id).startsWith('oic-')) {
+        if (selectedDocIsOic) {
             setOicDocuments(prev => prev.map(doc => doc.id === viewingDoc.id ? updated : doc));
         } else {
             setDocuments(prev => prev.map(doc => doc.id === viewingDoc.id ? updated : doc));
@@ -274,7 +277,7 @@ export const DocumentsPage = ({
                                 ) : filteredDocs.map((doc) => (
                                     <tr 
                                         key={doc.id} 
-                                        onClick={() => handleRowClick(doc)}
+                                        onClick={() => handleRowClick(doc, false)}
                                         className={`glass-row-hover transition-colors cursor-pointer ${selectedDocId === doc.id ? 'bg-emerald-500/10' : ''}`}
                                     >
                                         <td className="px-6 py-4 text-sm font-medium text-gray-900">{doc.title}</td>
@@ -333,7 +336,7 @@ export const DocumentsPage = ({
                                         {filteredOic.map((doc) => (
                                             <tr
                                                 key={doc.id}
-                                                onClick={() => handleRowClick(doc)}
+                                                onClick={() => handleRowClick(doc, true)}
                                                 className={`glass-row-hover transition-colors cursor-pointer group ${selectedDocId === doc.id ? 'bg-emerald-500/10' : ''}`}
                                             >
                                                 <td className="px-6 py-4 text-sm font-medium text-emerald-800 max-w-sm">

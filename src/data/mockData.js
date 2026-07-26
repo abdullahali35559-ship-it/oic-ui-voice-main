@@ -23,8 +23,8 @@ export const mockData = {
     templates: [],
     kbPending: [
         { name: "OIC Charter", status: "Pending Approval", subStatus: "Failed", uploaded: "Jul 17, 2026", reviewed: "Jul 17, 2026", error: "Ingestion failed: The request timed out after 20s. Fix the URL or try activating again." },
-        { name: "OIC Member States Portal", status: "Pending Approval", subStatus: "Failed", uploaded: "Jul 17, 2026", reviewed: "Jul 17, 2026", error: "Ingestion failed: Couldn't fetch the page — the site blocked or rejected the request (HTTP 403). Fix the URL or try activating again." },
-        { name: "Ministerial Council Guidelines", status: "Pending Approval", subStatus: "Failed", uploaded: "Jul 17, 2026", reviewed: "Jul 17, 2026", error: "Ingestion failed: Couldn't fetch the page — the site blocked or rejected the request (HTTP 403). Fix the URL or try activating again." },
+        { name: "OIC Member States Portal", status: "Pending Approval", subStatus: "Failed", uploaded: "Jul 17, 2026", reviewed: "Jul 17, 2026", error: "Ingestion failed: The request timed out after 20s. Fix the URL or try activating again." },
+        { name: "Ministerial Council Guidelines", status: "Pending Approval", subStatus: "Failed", uploaded: "Jul 17, 2026", reviewed: "Jul 17, 2026", error: "Ingestion failed: The request timed out after 20s. Fix the URL or try activating again." },
     ],
     kbActive: [
         { name: "Organisation of Islamic Cooperation", status: "Active", subStatus: "Ready", uploaded: "Jul 17, 2026", reviewed: "Jul 17, 2026", category: "" },

@@ -75,9 +75,11 @@ export const VoiceAssistant = ({
         const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
         if (SpeechRecognition) {
             const rec = new SpeechRecognition();
-            rec.continuous = false;
-            rec.interimResults = false;
+            rec.continuous = true;
+            rec.interimResults = true;
             rec.lang = 'en-US';
+
+            let silenceTimer = null;
 
             rec.onstart = () => {
                 setIsListening(true);
@@ -85,22 +87,33 @@ export const VoiceAssistant = ({
             };
 
             rec.onresult = (event) => {
-                const text = event.results[0][0].transcript;
-                setTranscript(text);
-
-                const wakeMatch = text.match(/^(?:hey\s+abdul|hay\s+abdul|hi\s+abdul|ok\s+abdul|hello\s+abdul|abdul|abdule|abdool|abdel|abdal|abud|about|apple|able|please|hey|hay|hi|ok|hello)[,.]?\s*(.*)$/i);
-
-                if (wakeMatch) {
-                    const command = wakeMatch[1].trim();
-                    if (command) {
-                        handleVoiceCommand(command);
-                    } else {
-                        setResponse("Yes, I'm listening. How can I help you?");
-                        speak("Yes, I'm listening. How can I help you?");
-                    }
-                } else {
-                    console.log("Wake word not detected:", text);
+                let currentText = "";
+                for (let i = 0; i < event.results.length; i++) {
+                    currentText += event.results[i][0].transcript;
                 }
+                setTranscript(currentText);
+
+                if (silenceTimer) clearTimeout(silenceTimer);
+
+                silenceTimer = setTimeout(() => {
+                    const wakeMatch = currentText.match(/^(?:hey\s+am[ée]lie|hi\s+am[ée]lie|ok\s+am[ée]lie|hello\s+am[ée]lie|am[ée]lie|amelia|emily|noor|hey\s+noor|hi\s+noor|ok\s+noor|hello\s+noor|hey\s+am[ée]lie\s+noor|hi\s+am[ée]lie\s+noor|am[ée]lie\s+noor|please|hey|hay|hi|ok|hello)[,.]?\s*(.*)$/i);
+
+                    if (wakeMatch) {
+                        const command = wakeMatch[1].trim();
+                        if (command) {
+                            handleVoiceCommand(command);
+                        } else {
+                            setResponse("Yes, I'm listening. How can I help you?");
+                            speak("Yes, I'm listening. How can I help you?");
+                        }
+                    } else {
+                        console.log("Wake word not detected:", currentText);
+                    }
+                    
+                    if (shouldListenRef.current) {
+                        try { rec.stop(); } catch(e) {}
+                    }
+                }, 3000);
             };
 
             rec.onerror = (event) => {
@@ -288,7 +301,7 @@ export const VoiceAssistant = ({
 
         // 2. Handle "create template X"
         if (!title) {
-            match = text.match(/create\s+(?:template|new)\s+["']?([^"']+)["']?(?:\s+for|\s+about|$)/i);
+            match = text.match(/create\s+(?:(?:a\s+)?new\s+)?template\s+(?:of\s+|for\s+|called\s+|named\s+)?["']?([^"']+)["']?(?:\s+for|\s+about|$)/i);
             if (match) title = match[1].trim();
         }
 
@@ -488,14 +501,7 @@ export const VoiceAssistant = ({
             if (success) console.log("✅ Filled template content:", content);
         }
 
-        setTimeout(() => {
-            const saveBtn = document.getElementById('create-template-button') || findButtonByText(modal, ['Create template', 'Save Template', 'Save', 'Create']);
-            if (saveBtn) {
-                saveBtn.click();
-                console.log("✅ Clicked save button");
-                setTimeout(() => closeModals(), 600);
-            }
-        }, 500);
+        // Auto-save is intentionally disabled so the user can review and manually click Create/Save
     };
 
     const fillAIWriterForm = async (data) => {
@@ -1962,7 +1968,7 @@ Return JSON with:
                     {showSettings ? (
                         <div className="space-y-3 py-2 text-sm text-gray-700">
                             <div className="text-xs text-gray-700 mb-2">
-                                Voice command execution handles active workspace state. Wake word is <span className="font-semibold text-gray-900">"Abdul"</span>.
+                                Voice command execution handles active workspace state. Wake word is <span className="font-semibold text-gray-900">"Amélie"</span> or <span className="font-semibold text-gray-900">"Noor"</span>.
                             </div>
                             <div className="flex items-center justify-between pt-1">
                                 <span className="text-xs text-gray-600 font-medium">Text-To-Speech Feedback</span>
@@ -1982,7 +1988,7 @@ Return JSON with:
                         <div className="flex-1 flex flex-col space-y-4 overflow-y-auto pr-1">
                             {shouldListenRef.current && (
                                 <div className="text-center bg-[#1a4731]/10 text-[#1a4731] text-xs py-1.5 px-3 rounded-lg border border-[#1a4731]/15 font-medium animate-pulse">
-                                    🎤 Mic is continuous. Say "Abdul" before commands!
+                                    🎤 Mic is continuous. Say "Amélie Noor" before commands!
                                 </div>
                             )}
 
@@ -2020,16 +2026,16 @@ Return JSON with:
                                     <div className="space-y-2">
                                         <div className="text-xs font-semibold text-gray-700 uppercase tracking-wider">Try saying:</div>
                                         <button onClick={() => handleVoiceCommand("create template Code of Conduct")} className="w-full text-left p-2 hover:bg-white/30 rounded-lg text-xs text-gray-700 transition-colors border border-dashed border-white/40">
-                                            👉 "Abdul, create template Code of Conduct"
+                                            💡 "Amélie Noor, create template Code of Conduct"
                                         </button>
                                         <button onClick={() => handleVoiceCommand("write a policy called Student Attendance")} className="w-full text-left p-2 hover:bg-white/30 rounded-lg text-xs text-gray-700 transition-colors border border-dashed border-white/40">
-                                            👉 "Abdul, write a policy called Student Attendance"
+                                            💡 "Amélie Noor, write a policy called Student Attendance"
                                         </button>
                                         <button onClick={() => handleVoiceCommand("add user test@oic.org as admin")} className="w-full text-left p-2 hover:bg-white/30 rounded-lg text-xs text-gray-700 transition-colors border border-dashed border-white/40">
-                                            👉 "Abdul, add user test@oic.org as admin"
+                                            💡 "Amélie Noor, add user test@oic.org as admin"
                                         </button>
                                         <button onClick={() => handleVoiceCommand("close all")} className="w-full text-left p-2 hover:bg-white/30 rounded-lg text-xs text-gray-700 transition-colors border border-dashed border-white/40">
-                                            👉 "Abdul, close all"
+                                            💡 "Amélie Noor, close all"
                                         </button>
                                     </div>
                                 </div>
